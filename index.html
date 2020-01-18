@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        html,body{
+            margin: 0;
+            padding: 0;
+        }
+        .wrap{
+            width: 192px;
+            height: 192px;
+            background-color: rgba(0, 0, 0, 0);
+            border-left: 8px solid red;
+            border-top: 8px solid red;
+            border-bottom: 8px solid lightgreen;
+            border-right: 8px solid lightgreen;
+            border-radius: 50%;
+            transition: all 1s; 
+            position: absolute;
+            left: 46px;
+            top: 16px;
+        }
+      .bg{
+            width: 196px;
+            height: 196px;
+            margin: 20px 50px;
+            border-radius: 50%;
+
+        }
+       .bg img{
+            width: 196px;
+            height: 196px;
+            border-radius: 50%;
+           
+        }
+       .wrap:hover {
+            transform: rotate(90deg);
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+           
+    </div>
+    <div class="bg"><img src="https://ww1.sinaimg.cn/large/0065oQSqly1g2hekfwnd7j30sg0x4djy.jpg" alt=""></div>
+</body>
+</html>
